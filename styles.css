@@ -445,14 +445,14 @@ h1 > span { display: block; width: max-content; max-width: 100%; }
   z-index: 3;
   min-height: 83px;
   display: grid;
-  grid-template-columns: 28px 1fr auto auto;
+  grid-template-columns: 58px 1fr auto auto;
   align-items: center;
   gap: 16px;
   margin-top: 45px;
   border-top: 1px solid var(--line);
 }
 .footer-brand { justify-content: center; gap: 0; }
-.footer-brand .brand-mark { width: 23px; }
+.footer-logo { display: block; width: 52px; height: auto; }
 .footer-copy, .footer-status, .footer-time { margin: 0; color: var(--muted); font-size: 12px; letter-spacing: .12em; }
 .footer-status { display: inline-flex; align-items: center; gap: 10px; }
 .footer-status i { width: 8px; height: 8px; border-radius: 50%; background: var(--moss); }
@@ -556,7 +556,8 @@ main .project-card { background: color-mix(in srgb, var(--black) 84%, transparen
   .contact-form textarea { min-height: 120px; }
   .site-footer { padding-top: 34px; padding-bottom: 18px; }
   .footer-wordmark { font-size: clamp(82px, 19vw, 136px); }
-  .footer-meta { min-height: 0; grid-template-columns: 25px 1fr; gap: 16px 12px; margin-top: 32px; padding-block: 19px 8px; }
+  .footer-meta { min-height: 0; grid-template-columns: 44px 1fr; gap: 16px 12px; margin-top: 32px; padding-block: 19px 8px; }
+  .footer-logo { width: 40px; }
   .footer-status { grid-column: 1 / -1; line-height: 1.7; }
   .footer-time { grid-column: 1 / -1; justify-self: start; }
 }
@@ -577,8 +578,8 @@ main .project-card { background: color-mix(in srgb, var(--black) 84%, transparen
 }
 @media (max-width: 480px) {
   .contact-fields-top { grid-template-columns: 1fr; gap: 16px; }
-  .contact-details > * { grid-template-columns: 16px 68px minmax(0, 1fr); gap: 9px; padding-inline: 0; }
-  .contact-details > * > span { font-size: 12px; }
+  .contact-details > * { grid-template-columns: 16px 72px minmax(0, 1fr); gap: 8px; padding-inline: 0; }
+  .contact-details > * > span { font-size: 11px; letter-spacing: .12em; }
   .contact-details strong { font-size: 12px; }
   .footer-copy, .footer-status, .footer-time { font-size: 12px; letter-spacing: .08em; }
 }
