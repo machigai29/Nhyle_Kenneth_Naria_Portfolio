@@ -322,6 +322,9 @@ h1 > span { display: block; width: max-content; max-width: 100%; }
 .capability-card ul { margin: 0; padding: 0; list-style: none; }
 .capability-card li { padding-block: 8px; border-top: 1px solid rgba(226,235,221,0.12); color: var(--muted); font-size: 12px; }
 .capability-card li::before { content: "↗"; margin-right: 9px; color: var(--ember); }
+.development-groups { display: grid; gap: 14px; }
+.development-group h4 { margin: 0 0 7px; color: var(--flame); font: 500 11px/1.4 var(--mono); letter-spacing: 0.08em; }
+.development-group .skill-chips { gap: 6px; }
 .skill-chips, .project-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .skill-chips span, .project-tags span { padding: 8px 10px; border: 1px solid rgba(226,235,221,0.18); border-radius: 999px; color: var(--muted); font: 400 12px/1 var(--mono); }
 
